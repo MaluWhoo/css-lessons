@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+
+    <!--
+        Inline CSS -> CSS na linha
+        Internal CSS -> CSS na página
+        External CSS -> CSS externo (arquivo .css)
+    -->
+
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 40px;
+            background-color: #F0F0F0; 
+        }
+
+        .main-box {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+
+            background-color: #FFFFFF; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+            border-radius: 8px; 
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+
+        .img {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo h1 {
+            color: #4282af; 
+            font-family: 'Georgia', serif; 
+            font-size: 32px;
+            text-shadow: 1px 1px #ccc; 
+        }
+
+        a {
+            background-color: #C0C0C0;
+            padding: 8px;
+            border-radius: 5px;
+
+            text-decoration: none;
+            color: #4282af;
+            font-weight: bold;
+        }
+
+        a:hover {
+            transition: 0.2s;
+            color: #D30808;
+        }
+
+        .content {
+            margin-top: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="main-box">
+        <div class="img">
+            <div class="logo">
+                <img src="img/phone1.png" alt="" width=30%">
+                <h1 style="color: ;">Site</h1>
+            </div>
+
+            <div class="menu">
+                <a href="index.html">Home</a> 
+                <a href="produtos.html">Produtos</a> 
+                <a href="contato.html">Contato</a>
+            </div>
+        </div>
+        
+        <div class="content">
+            <h2>
+                Página Principal
+            </h2><br>
+
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui in, maxime consectetur voluptates atque harum eos. Numquam, veniam perferendis. Sunt quia laudantium, nemo porro sequi eos sapiente voluptate molestiae quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque repellendus ipsam magni suscipit animi dicta sint laboriosam incidunt enim, sunt mollitia porro soluta quo corporis consectetur voluptas? Voluptatum, similique distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, magni velit repudiandae facere officia exercitationem in perspiciatis a voluptates, amet animi, atque eaque fugiat recusandae dolorum numquam pariatur iste minus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus possimus rerum alias culpa molestias animi sed architecto! Ipsum impedit dolore ipsa, et blanditiis accusantium neque aut quod eveniet exercitationem in!
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
